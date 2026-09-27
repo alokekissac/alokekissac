@@ -219,7 +219,7 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=alokekissac&theme=tokyonight&hide_border=true&background=040711&stroke=00f3ff&ring=00ff9d&fire=00ff9d&currStreakNum=00f3ff" alt="GitHub streak" width="49%" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alokekissac&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" alt="Top languages" width="48%" />
+  <img src="https://raw.githubusercontent.com/alokekissac/alokekissac/output/top-langs.svg" alt="Top languages" width="48%" />
 </p>
 
 </div>
