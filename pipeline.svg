@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480 400" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#081326"/><stop offset="100%" stop-color="#02050c"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00f3ff" stop-opacity=".55"/><stop offset="50%" stop-color="#fff" stop-opacity=".06"/><stop offset="100%" stop-color="#00ff9d" stop-opacity=".45"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#0f2340"/></pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .pulse{animation:pulse 2s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    </style>
+  </defs>
+  <rect width="1480" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1480" height="400" rx="24" fill="url(#grid)" opacity=".4"/>
+  <rect x="1.5" y="1.5" width="1477" height="397" rx="23" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <circle cx="50" cy="50" r="7" fill="#00ff9d" class="pulse" filter="url(#glow)"/>
+  <text x="68" y="56" class="mono" font-size="17" font-weight="800" fill="#cbd5e1" letter-spacing="2.5">HOW I BUILD AI PRODUCTS</text>
+  <text x="1440" y="56" class="mono" font-size="13" font-weight="800" fill="#00f3ff" text-anchor="end" letter-spacing="1">[ FROM RAW DATA TO A LINK YOU CAN CLICK ]</text
+>
+  <g>
+    <rect x="40" y="92" width="248" height="236" rx="16" fill="#08111f" stroke="#00f3ff" stroke-opacity=".75" stroke-width="1.6" filter="url(#glow)"/>
+    <rect x="58" y="112" width="36" height="30" rx="7" fill="#0f2238"/>
+    <text x="76" y="132" class="mono" font-size="12.5" font-weight="800" fill="#00f3ff" text-anchor="middle">DB</text>
+    <text x="106" y="122" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1.5">LAYER 01</text>
+    <text x="106" y="141" class="sans" font-size="16" font-weight="800" fill="#f8fafc">DATA</text>
+    <line x1="58" y1="156" x2="270" y2="156" stroke="#1d3a5c"/>
+    <rect x="58" y="168" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="70" y="185" class="mono" font-size="12" font-weight="700" fill="#00f3ff">pandas · NumPy</text>
+    <rect x="58" y="202" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="70" y="219" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Cleaning · EDA</text>
+    <rect x="58" y="236" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="70" y="253" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Feature engineering</text>
+    <rect x="58" y="270" width="212" height="26" rx="6" fill="#052a22" stroke="#00f3ff" stroke-opacity=".6"/>
+    <text x="70" y="287" class="mono" font-size="11.5" font-weight="800" fill="#00f3ff">127K RECORDS</text>
+  </g>
+  <line x1="288" y1="210" x2="328" y2="210" stroke="#1d3a5c" stroke-width="2"/>
+  <circle r="4.5" fill="#00f3ff" filter="url(#glow)"><animate attributeName="cx" from="288" to="328" dur="1.6s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="cy" values="210;210" dur="1.6s" repeatCount="indefinite"/></circle>
+  <g>
+    <rect x="328" y="92" width="248" height="236" rx="16" fill="#08111f" stroke="#00ff9d" stroke-opacity=".75" stroke-width="1.6" filter="url(#glow)"/>
+    <rect x="346" y="112" width="36" height="30" rx="7" fill="#0f2238"/>
+    <text x="364" y="132" class="mono" font-size="12.5" font-weight="800" fill="#00ff9d" text-anchor="middle">ML</text>
+    <text x="394" y="122" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1.5">LAYER 02</text>
+    <text x="394" y="141" class="sans" font-size="16" font-weight="800" fill="#f8fafc">MODELS</text>
+    <line x1="346" y1="156" x2="558" y2="156" stroke="#1d3a5c"/>
+    <rect x="346" y="168" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="358" y="185" class="mono" font-size="12" font-weight="700" fill="#00ff9d">scikit-learn · XGBoost</text>
+    <rect x="346" y="202" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="358" y="219" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">PyTorch LSTM</text>
+    <rect x="346" y="236" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="358" y="253" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Q-learning · Monte Carlo</text>
+    <rect x="346" y="270" width="212" height="26" rx="6" fill="#052a22" stroke="#00ff9d" stroke-opacity=".6"/>
+    <text x="358" y="287" class="mono" font-size="11.5" font-weight="800" fill="#00ff9d">5 MODELS + 2 RL AGENTS</text>
+  </g>
+  <line x1="576" y1="210" x2="616" y2="210" stroke="#1d3a5c" stroke-width="2"/>
+  <circle r="4.5" fill="#00ff9d" filter="url(#glow)"><animate attributeName="cx" from="576" to="616" dur="1.6s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="cy" values="210;210" dur="1.6s" repeatCount="indefinite"/></circle>
+  <g>
+    <rect x="616" y="92" width="248" height="236" rx="16" fill="#08111f" stroke="#38bdf8" stroke-opacity=".75" stroke-width="1.6" filter="url(#glow)"/>
+    <rect x="634" y="112" width="36" height="30" rx="7" fill="#0f2238"/>
+    <text x="652" y="132" class="mono" font-size="12.5" font-weight="800" fill="#38bdf8" text-anchor="middle">EV</text>
+    <text x="682" y="122" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1.5">LAYER 03</text>
+    <text x="682" y="141" class="sans" font-size="16" font-weight="800" fill="#f8fafc">EVALUATION</text>
+    <line x1="634" y1="156" x2="846" y2="156" stroke="#1d3a5c"/>
+    <rect x="634" y="168" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="646" y="185" class="mono" font-size="12" font-weight="700" fill="#38bdf8">Held-out test sets</text>
+    <rect x="634" y="202" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="646" y="219" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Multi-seed + 95% CI</text>
+    <rect x="634" y="236" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="646" y="253" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Baselines · exact optimum</text>
+    <rect x="634" y="270" width="212" height="26" rx="6" fill="#052a22" stroke="#38bdf8" stroke-opacity=".6"/>
+    <text x="646" y="287" class="mono" font-size="11.5" font-weight="800" fill="#38bdf8">NO LEAKAGE</text>
+  </g>
+  <line x1="864" y1="210" x2="904" y2="210" stroke="#1d3a5c" stroke-width="2"/>
+  <circle r="4.5" fill="#38bdf8" filter="url(#glow)"><animate attributeName="cx" from="864" to="904" dur="1.6s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="cy" values="210;210" dur="1.6s" repeatCount="indefinite"/></circle>
+  <g>
+    <rect x="904" y="92" width="248" height="236" rx="16" fill="#08111f" stroke="#00f3ff" stroke-opacity=".75" stroke-width="1.6" filter="url(#glow)"/>
+    <rect x="922" y="112" width="36" height="30" rx="7" fill="#0f2238"/>
+    <text x="940" y="132" class="mono" font-size="12.5" font-weight="800" fill="#00f3ff" text-anchor="middle">API</text>
+    <text x="970" y="122" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1.5">LAYER 04</text>
+    <text x="970" y="141" class="sans" font-size="16" font-weight="800" fill="#f8fafc">SERVING</text>
+    <line x1="922" y1="156" x2="1134" y2="156" stroke="#1d3a5c"/>
+    <rect x="922" y="168" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="934" y="185" class="mono" font-size="12" font-weight="700" fill="#00f3ff">Flask REST APIs</text>
+    <rect x="922" y="202" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="934" y="219" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Gemini · OpenAI</text>
+    <rect x="922" y="236" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="934" y="253" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Input validation</text>
+    <rect x="922" y="270" width="212" height="26" rx="6" fill="#052a22" stroke="#00f3ff" stroke-opacity=".6"/>
+    <text x="934" y="287" class="mono" font-size="11.5" font-weight="800" fill="#00f3ff">JSON · 400 ON BAD INPUT</text>
+  </g>
+  <line x1="1152" y1="210" x2="1192" y2="210" stroke="#1d3a5c" stroke-width="2"/>
+  <circle r="4.5" fill="#00f3ff" filter="url(#glow)"><animate attributeName="cx" from="1152" to="1192" dur="1.6s" begin="0.8999999999999999s" repeatCount="indefinite"/><animate attributeName="cy" values="210;210" dur="1.6s" repeatCount="indefinite"/></circle>
+  <g>
+    <rect x="1192" y="92" width="248" height="236" rx="16" fill="#08111f" stroke="#00ff9d" stroke-opacity=".75" stroke-width="1.6" filter="url(#glow)"/>
+    <rect x="1210" y="112" width="36" height="30" rx="7" fill="#0f2238"/>
+    <text x="1228" y="132" class="mono" font-size="12.5" font-weight="800" fill="#00ff9d" text-anchor="middle">UI</text>
+    <text x="1258" y="122" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1.5">LAYER 05</text>
+    <text x="1258" y="141" class="sans" font-size="16" font-weight="800" fill="#f8fafc">PRODUCT</text>
+    <line x1="1210" y1="156" x2="1422" y2="156" stroke="#1d3a5c"/>
+    <rect x="1210" y="168" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="1222" y="185" class="mono" font-size="12" font-weight="700" fill="#00ff9d">Three.js · Chart.js</text>
+    <rect x="1210" y="202" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="1222" y="219" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Android (Java)</text>
+    <rect x="1210" y="236" width="212" height="26" rx="6" fill="#0c1a2e" stroke="#16304d"/>
+    <text x="1222" y="253" class="mono" font-size="12" font-weight="700" fill="#e2e8f0">Vercel deploys</text>
+    <rect x="1210" y="270" width="212" height="26" rx="6" fill="#052a22" stroke="#00ff9d" stroke-opacity=".6"/>
+    <text x="1222" y="287" class="mono" font-size="11.5" font-weight="800" fill="#00ff9d">LIVE DEMOS</text>
+  </g>
+  <text x="40" y="370" class="mono" font-size="12.5" font-weight="700"><tspan fill="#64748b">APPROACH:</tspan><tspan fill="#f1f5f9"> BASELINES FIRST · HONEST METRICS</tspan></text>
+  <text x="560" y="370" class="mono" font-size="12.5" font-weight="700"><tspan fill="#64748b">DATA:</tspan><tspan fill="#00ff9d"> MySQL · SQLite</tspan></text>
+  <text x="820" y="370" class="mono" font-size="12.5" font-weight="700"><tspan fill="#64748b">TOOLS:</tspan><tspan fill="#00f3ff"> Git · Jupyter · pytest</tspan></text>
+  <text x="1440" y="370" class="mono" font-size="12.5" font-weight="700" text-anchor="end"><tspan fill="#64748b">DEPLOY:</tspan><tspan fill="#00ff9d"> VERCEL</tspan></text>
+</svg>

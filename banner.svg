@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#0a1a33"/><stop offset="60%" stop-color="#050b18"/><stop offset="100%" stop-color="#02050c"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f3ff"/><stop offset="55%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity=".55"/><stop offset="50%" stop-color="#ffffff" stop-opacity=".08"/><stop offset="100%" stop-color="#00ff9d" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1426" stop-opacity=".95"/><stop offset="100%" stop-color="#050a16" stop-opacity=".95"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity=".35"/><stop offset="70%" stop-color="#00ff9d" stop-opacity=".12"/><stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e3b4f"/><stop offset="100%" stop-color="#062a22"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#0f2340" stroke-width="1"/></pattern>
+    <style>
+      .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .dim{fill:#64748b}.cy{fill:#00f3ff}.gr{fill:#00ff9d}.wh{fill:#f1f5f9}.sk{fill:#38bdf8}.or{fill:#fb923c}.pu{fill:#c084fc}.yl{fill:#fde68a}
+      .blink{animation:blink 1.1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+      .spin{transform-origin:1150px 262px;animation:spin 18s linear infinite}
+      .spinr{transform-origin:1150px 262px;animation:spin 26s linear infinite reverse}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .scan{animation:scan 5s linear infinite}
+      @keyframes scan{0%{transform:translateY(0)}100%{transform:translateY(700px)}}
+      .l1{animation:type 0.6s .3s both}.l2{animation:type .6s .7s both}.l3{animation:type .6s 1.1s both}.l4{animation:type .6s 1.5s both}.l5{animation:type .6s 1.9s both}.l6{animation:type .6s 2.3s both}.l7{animation:type .6s 2.7s both}.l8{animation:type .6s 3.3s both}.l9{animation:type .6s 3.9s both}
+      @keyframes type{from{opacity:0}to{opacity:1}}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1440" height="800" rx="26" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1440" height="800" rx="26" fill="url(#grid)" opacity=".45"/>
+  <rect x="1.5" y="1.5" width="1437" height="797" rx="25" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="0" y="40" width="1440" height="2" fill="#00f3ff" opacity=".07" class="scan"/>
+
+  <!-- status bar -->
+  <rect x="30" y="26" width="1380" height="44" rx="10" fill="#07101f" stroke="#15304f"/>
+  <circle cx="54" cy="48" r="6" class="gr pulse" filter="url(#glow)"/>
+  <text x="70" y="53" class="mono" font-size="14" font-weight="700"><tspan class="gr">STATUS:</tspan><tspan class="wh"> OPEN TO AI / ML ROLES</tspan></text>
+  <text x="380" y="53" class="mono" font-size="14" font-weight="700"><tspan class="dim">BASE:</tspan><tspan class="cy"> DUBLIN, IE</tspan></text>
+  <text x="580" y="53" class="mono" font-size="14" font-weight="700"><tspan class="dim">DEGREE:</tspan><tspan class="sk"> MSc ARTIFICIAL INTELLIGENCE</tspan></text>
+  <text x="940" y="53" class="mono" font-size="14" font-weight="700"><tspan class="dim">CORE:</tspan><tspan class="gr"> PYTHON · ML · RL</tspan></text>
+  <text x="1200" y="53" class="mono" font-size="14" font-weight="700"><tspan class="dim">SHIP:</tspan><tspan class="wh"> VERCEL</tspan></text>
+
+  <!-- identity -->
+  <text x="44" y="112" class="mono" font-size="17" font-weight="700"><tspan class="gr">aloke@dublin</tspan><tspan class="wh">:~$ whoami --role --focus</tspan></text>
+  <text x="42" y="178" class="sans wh" font-size="58" font-weight="800" letter-spacing="-1">Aloke Kunjandi Issac</text>
+  <text x="46" y="216" class="mono" font-size="19" font-weight="800" fill="url(#neon)" letter-spacing="3">AI ENGINEER  //  FULL-STACK DEVELOPER</text>
+  <text x="46" y="248" class="sans" font-size="17" fill="#94a3b8">Machine learning, reinforcement learning and the web apps that put models in people's hands.</text>
+
+  <!-- code panel -->
+  <rect x="40" y="274" width="830" height="330" rx="16" fill="url(#glass)" stroke="#1d3a5c"/>
+  <rect x="40" y="274" width="830" height="40" rx="16" fill="#0b182c"/>
+  <rect x="40" y="298" width="830" height="16" fill="#0b182c"/>
+  <circle cx="64" cy="294" r="6" fill="#ff5f57"/><circle cx="84" cy="294" r="6" fill="#febc2e"/><circle cx="104" cy="294" r="6" fill="#28c840"/>
+  <text x="126" y="299" class="mono dim" font-size="13" font-weight="700">~/aloke/engineer.py  —  python 3.12</text>
+  <text x="846" y="299" class="mono gr" font-size="12" font-weight="700" text-anchor="end">[ RUNNING ]</text>
+  <g class="mono" font-size="15.5" font-weight="600">
+    <text x="64" y="346" class="l1"><tspan class="pu">class</tspan><tspan class="yl"> AIEngineer</tspan><tspan class="wh">:</tspan></text>
+    <text x="96" y="372" class="l2"><tspan class="sk">name      </tspan><tspan class="wh">= </tspan><tspan class="or">"Aloke Kunjandi Issac"</tspan></text>
+    <text x="96" y="398" class="l3"><tspan class="sk">based_in  </tspan><tspan class="wh">= </tspan><tspan class="or">"Dublin, Ireland"</tspan></text>
+    <text x="96" y="424" class="l4"><tspan class="sk">education </tspan><tspan class="wh">= [</tspan><tspan class="or">"MSc AI · Dublin Business School"</tspan><tspan class="wh">, </tspan><tspan class="or">"BCA"</tspan><tspan class="wh">]</tspan></text>
+    <text x="96" y="450" class="l5"><tspan class="sk">focus     </tspan><tspan class="wh">= [</tspan><tspan class="or">"ML forecasting"</tspan><tspan class="wh">, </tspan><tspan class="or">"Reinforcement learning"</tspan><tspan class="wh">, </tspan><tspan class="or">"AI apps"</tspan><tspan class="wh">]</tspan></text>
+    <text x="96" y="476" class="l6"><tspan class="sk">stack     </tspan><tspan class="wh">= [</tspan><tspan class="or">"Python"</tspan><tspan class="wh">, </tspan><tspan class="or">"PyTorch"</tspan><tspan class="wh">, </tspan><tspan class="or">"scikit-learn"</tspan><tspan class="wh">, </tspan><tspan class="or">"Flask"</tspan><tspan class="wh">, </tspan><tspan class="or">"JS"</tspan><tspan class="wh">]</tspan></text>
+    <text x="96" y="502" class="l7"><tspan class="sk">principle </tspan><tspan class="wh">= </tspan><tspan class="or">"Measure honestly. Then ship it."</tspan></text>
+  </g>
+  <line x1="64" y1="524" x2="846" y2="524" stroke="#1d3a5c"/>
+  <text x="64" y="554" class="mono l8" font-size="15.5" font-weight="700"><tspan class="gr">aloke@dublin</tspan><tspan class="wh">:~$ python train.py &amp;&amp; vercel deploy --prod</tspan></text>
+  <text x="64" y="584" class="mono gr l9" font-size="15.5" font-weight="700">✔ models evaluated against baselines · apps live · README updated<tspan class="blink"> ▋</tspan></text>
+
+  <!-- avatar panel -->
+  <rect x="900" y="96" width="500" height="508" rx="18" fill="url(#glass)" stroke="#1d3a5c"/>
+  <text x="926" y="130" class="mono cy" font-size="13" font-weight="800" letter-spacing="1.5">IDENTITY // AI ENGINEER</text>
+  <text x="1374" y="130" class="mono gr" font-size="12" font-weight="800" text-anchor="end">[VERIFIED]</text>
+  <circle cx="1150" cy="262" r="118" fill="url(#aura)"/>
+  <circle cx="1150" cy="262" r="96" fill="none" stroke="#00f3ff" stroke-width="2" stroke-dasharray="4 10" class="spin" opacity=".8"/>
+  <circle cx="1150" cy="262" r="84" fill="none" stroke="#00ff9d" stroke-width="3" stroke-dasharray="120 40 30 40" class="spinr" filter="url(#glow)"/>
+  <circle cx="1150" cy="262" r="72" fill="url(#orb)" stroke="#00ff9d" stroke-opacity=".5"/>
+  <text x="1150" y="282" class="sans" font-size="54" font-weight="800" text-anchor="middle" fill="url(#neon)">AKI</text>
+  <text x="1150" y="408" class="sans wh" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="1">ALOKE K. ISSAC</text>
+  <text x="1150" y="436" class="mono cy" font-size="15" font-weight="700" text-anchor="middle">@alokekissac  //  ML · RL · WEB</text>
+  <g class="mono" font-weight="800">
+    <rect x="926" y="462" width="220" height="56" rx="10" fill="#052a22" stroke="#00ff9d" stroke-opacity=".6"/>
+    <text x="942" y="484" font-size="10.5" class="dim">BEST FORECAST MODEL</text>
+    <text x="942" y="506" font-size="16" class="gr">R² 0.986</text>
+    <rect x="1156" y="462" width="220" height="56" rx="10" fill="#06223a" stroke="#38bdf8" stroke-opacity=".6"/>
+    <text x="1172" y="484" font-size="10.5" class="dim">RL AGENT VS TIMERS</text>
+    <text x="1172" y="506" font-size="16" class="sk">−37% cars waiting</text>
+    <rect x="926" y="528" width="220" height="56" rx="10" fill="#0b1426" stroke="#1d3a5c"/>
+    <text x="942" y="550" font-size="10.5" class="dim">EDUCATION</text>
+    <text x="942" y="572" font-size="16" class="wh">MSc AI · DBS</text>
+    <rect x="1156" y="528" width="220" height="56" rx="10" fill="#0b1426" stroke="#1d3a5c"/>
+    <text x="1172" y="550" font-size="10.5" class="dim">EXPERIENCE</text>
+    <text x="1172" y="572" font-size="16" class="wh">Full-stack intern</text>
+  </g>
+
+  <!-- chips -->
+  <text x="44" y="644" class="mono cy" font-size="14" font-weight="800" letter-spacing="1.5">&lt;/&gt; CORE STACK</text>
+  <g class="mono" font-size="13" font-weight="700" text-anchor="middle">
+    <g transform="translate(40,660)"><rect width="110" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="55" y="22" class="sk">Python</text></g>
+    <g transform="translate(160,660)"><rect width="110" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="55" y="22" class="or">PyTorch</text></g>
+    <g transform="translate(280,660)"><rect width="140" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="70" y="22" class="gr">scikit-learn</text></g>
+    <g transform="translate(430,660)"><rect width="110" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="55" y="22" class="cy">XGBoost</text></g>
+    <g transform="translate(550,660)"><rect width="130" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="65" y="22" class="wh">Gymnasium</text></g>
+    <g transform="translate(690,660)"><rect width="100" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="50" y="22" class="sk">pandas</text></g>
+    <g transform="translate(800,660)"><rect width="90" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="45" y="22" class="wh">Flask</text></g>
+    <g transform="translate(900,660)"><rect width="130" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="65" y="22" class="yl">JavaScript</text></g>
+    <g transform="translate(1040,660)"><rect width="110" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="55" y="22" class="gr">Three.js</text></g>
+    <g transform="translate(1160,660)"><rect width="110" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="55" y="22" class="sk">MySQL</text></g>
+    <g transform="translate(1280,660)"><rect width="120" height="34" rx="8" fill="#0b1426" stroke="#1d3a5c"/><text x="60" y="22" class="or">Java · Android</text></g>
+  </g>
+
+  <!-- comms -->
+  <rect x="40" y="716" width="1360" height="56" rx="12" fill="#07101f" stroke="#15304f"/>
+  <text x="64" y="750" class="mono" font-size="14" font-weight="700"><tspan class="gr">GITHUB:</tspan><tspan class="wh"> github.com/alokekissac</tspan></text>
+  <text x="480" y="750" class="mono" font-size="14" font-weight="700"><tspan class="cy">LINKEDIN:</tspan><tspan class="wh"> in/alokekisssac</tspan></text>
+  <text x="820" y="750" class="mono" font-size="14" font-weight="700"><tspan class="sk">EMAIL:</tspan><tspan class="wh"> alokekissac@gmail.com</tspan></text>
+  <text x="1376" y="750" class="mono gr" font-size="14" font-weight="700" text-anchor="end">● ONLINE</text>
+</svg>
