@@ -170,7 +170,7 @@
       <br/><br/>
       <code>Flask</code> • <code>MySQL</code> • <code>OpenAI</code> • <code>OpenCV</code> • <code>Android (Java)</code>
       <br/><br/>
-      <a href="https://ai-tour-planner-ucc3.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live%20Demo-00ff9d?style=flat-square&logo=vercel&logoColor=black" /></a>
+      <a href="https://ai-tour-planner-7uzv.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live%20Demo-00ff9d?style=flat-square&logo=vercel&logoColor=black" /></a>
       &nbsp;
       <a href="https://github.com/alokekissac/AI-Tour-Planner"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
     </td>
