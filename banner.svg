@@ -125,7 +125,7 @@
   <!-- comms -->
   <rect x="40" y="716" width="1360" height="56" rx="12" fill="#07101f" stroke="#15304f"/>
   <text x="64" y="750" class="mono" font-size="14" font-weight="700"><tspan class="gr">GITHUB:</tspan><tspan class="wh"> github.com/alokekissac</tspan></text>
-  <text x="480" y="750" class="mono" font-size="14" font-weight="700"><tspan class="cy">LINKEDIN:</tspan><tspan class="wh"> in/alokekisssac</tspan></text>
-  <text x="820" y="750" class="mono" font-size="14" font-weight="700"><tspan class="sk">EMAIL:</tspan><tspan class="wh"> alokekissac@gmail.com</tspan></text>
-  <text x="1376" y="750" class="mono gr" font-size="14" font-weight="700" text-anchor="end">● ONLINE</text>
+  <text x="410" y="750" class="mono" font-size="14" font-weight="700"><tspan class="cy">LINKEDIN:</tspan><tspan class="wh"> in/alokekisssac</tspan></text>
+  <text x="690" y="750" class="mono" font-size="14" font-weight="700"><tspan class="sk">EMAIL:</tspan><tspan class="wh"> alokekissac@gmail.com</tspan></text>
+  <text x="1376" y="750" class="mono" font-size="14" font-weight="700" text-anchor="end"><tspan class="gr">WEB:</tspan><tspan class="wh"> alokekissac-github-io.vercel.app</tspan></text>
 </svg>
