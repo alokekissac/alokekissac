@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ================= HEADER ================= -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=280&section=header&text=Aloke%20Kunjandi%20Issac&fontSize=62&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=AI%20Engineer%20%7C%20Machine%20Learning%20%26%20Reinforcement%20Learning%20%7C%20Full-Stack%20Developer&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1" alt="Aloke Kunjandi Issac" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=280&section=header&text=Aloke%20K.%20Issac&fontSize=62&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=AI%20Engineer%20%7C%20Machine%20Learning%20%26%20Reinforcement%20Learning%20%7C%20Full-Stack%20Developer&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1" alt="Aloke K. Issac" />
 
 <br/>
 
@@ -25,7 +25,7 @@
 
 <!-- ================= COMMAND CENTER BANNER ================= -->
 <p align="center">
-  <img src="./banner.svg?v=1" alt="Aloke Kunjandi Issac: AI Engineer, Dublin. Python, PyTorch, scikit-learn, Flask, JavaScript." width="100%">
+  <img src="./banner.svg?v=1" alt="Aloke K. Issac: AI Engineer, Dublin. Python, PyTorch, scikit-learn, Flask, JavaScript." width="100%">
 </p>
 
 <!-- ================= ID BADGE & TELEMETRY ================= -->
