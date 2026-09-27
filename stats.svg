@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#081326"/><stop offset="100%" stop-color="#02050c"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00f3ff" stop-opacity=".55"/><stop offset="50%" stop-color="#fff" stop-opacity=".06"/><stop offset="100%" stop-color="#00ff9d" stop-opacity=".45"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00ff9d"/><stop offset="100%" stop-color="#00f3ff"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#0f2340"/></pattern>
+    <filter id="glow" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow2" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
+      @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+      .ring{animation:ring 2.2s cubic-bezier(.2,.8,.2,1) both}
+      @keyframes ring{from{stroke-dashoffset:540}to{stroke-dashoffset:60}}
+      .spin{transform-origin:640px 150px;animation:spin 20s linear infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .pulse{animation:pulse 2s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+    </style>
+  </defs>
+  <rect width="800" height="880" rx="26" fill="url(#bg)"/>
+  <rect width="800" height="880" rx="26" fill="url(#grid)" opacity=".4"/>
+  <rect x="1.5" y="1.5" width="797" height="877" rx="25" fill="none" stroke="url(#edge)" stroke-width="2"/>
+
+  <circle cx="60" cy="62" r="7" fill="#00ff9d" class="pulse" filter="url(#glow2)"/>
+  <text x="78" y="68" class="mono" font-size="18" font-weight="800" fill="#e2e8f0" letter-spacing="2">MODEL TELEMETRY</text>
+  <text x="60" y="100" class="mono" font-size="13" font-weight="700" fill="#64748b">Measured results from my repos, not vanity numbers.</text>
+
+  <text x="60" y="160" class="sans" font-size="15" fill="#94a3b8">Every model is benchmarked against</text>
+  <text x="60" y="184" class="sans" font-size="15" fill="#94a3b8">simple baselines, across seeds, on</text>
+  <text x="60" y="208" class="sans" font-size="15" fill="#94a3b8">held-out data, and then deployed.</text>
+  <text x="60" y="250" class="mono" font-size="13" font-weight="800" fill="#00f3ff" letter-spacing="1.5">[ DATA → MODEL → EVAL → API → LIVE ]</text>
+
+  <circle cx="640" cy="150" r="96" fill="none" stroke="#1e3a5f" stroke-width="2" stroke-dasharray="3 9" class="spin"/>
+  <circle cx="640" cy="150" r="82" fill="none" stroke="#0f1b30" stroke-width="14"/>
+  <circle cx="640" cy="150" r="82" fill="none" stroke="url(#neon)" stroke-width="14" stroke-linecap="round" stroke-dasharray="515" class="ring" transform="rotate(-90 640 150)" filter="url(#glow2)"/>
+  <text x="640" y="162" class="sans" font-size="48" font-weight="800" fill="#f8fafc" text-anchor="middle">5</text>
+  <text x="640" y="188" class="mono" font-size="10" font-weight="800" fill="#00ff9d" text-anchor="middle" letter-spacing="1">PROJECTS SHIPPED</text>
+
+  <text x="60" y="330" class="mono" font-size="13" font-weight="700" fill="#94a3b8" letter-spacing="1">LANDFILL FORECAST · R² (LINEAR REGRESSION)</text>
+  <text x="740" y="330" class="mono" font-size="17" font-weight="800" fill="#00ff9d" text-anchor="end">0.986</text>
+  <rect x="60" y="344" width="680" height="12" rx="6" fill="#0f1b30"/>
+  <rect x="60" y="344" width="670" height="12" rx="6" fill="#00ff9d" class="grow" style="animation-delay:0.2s" filter="url(#glow)"/>
+  <text x="60" y="408" class="mono" font-size="13" font-weight="700" fill="#94a3b8" letter-spacing="1">RL SIGNAL · STATES MATCHING OPTIMAL POLICY</text>
+  <text x="740" y="408" class="mono" font-size="17" font-weight="800" fill="#00f3ff" text-anchor="end">89%</text>
+  <rect x="60" y="422" width="680" height="12" rx="6" fill="#0f1b30"/>
+  <rect x="60" y="422" width="605" height="12" rx="6" fill="#00f3ff" class="grow" style="animation-delay:0.45s" filter="url(#glow)"/>
+  <text x="60" y="486" class="mono" font-size="13" font-weight="700" fill="#94a3b8" letter-spacing="1">RL SIGNAL · FEWER CARS WAITING VS FIXED-TIME</text>
+  <text x="740" y="486" class="mono" font-size="17" font-weight="800" fill="#38bdf8" text-anchor="end">37%</text>
+  <rect x="60" y="500" width="680" height="12" rx="6" fill="#0f1b30"/>
+  <rect x="60" y="500" width="251" height="12" rx="6" fill="#38bdf8" class="grow" style="animation-delay:0.7s" filter="url(#glow)"/>
+  <text x="60" y="564" class="mono" font-size="13" font-weight="700" fill="#94a3b8" letter-spacing="1">LSTM BASELINE · R² (BEATEN BY SIMPLER MODEL)</text>
+  <text x="740" y="564" class="mono" font-size="17" font-weight="800" fill="#fb923c" text-anchor="end">0.955</text>
+  <rect x="60" y="578" width="680" height="12" rx="6" fill="#0f1b30"/>
+  <rect x="60" y="578" width="649" height="12" rx="6" fill="#fb923c" class="grow" style="animation-delay:0.95s" filter="url(#glow)"/>
+
+  <rect x="40" y="660" width="170" height="78" rx="12" fill="#0b1426" stroke="#1d3a5c"/>
+  <text x="56" y="688" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1">RECORDS MODELLED</text>
+  <text x="56" y="720" class="mono" font-size="22" font-weight="800" fill="#00ff9d">127K</text>
+  <rect x="224" y="660" width="170" height="78" rx="12" fill="#0b1426" stroke="#1d3a5c"/>
+  <text x="240" y="688" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1">MODELS COMPARED</text>
+  <text x="240" y="720" class="mono" font-size="22" font-weight="800" fill="#00f3ff">5</text>
+  <rect x="408" y="660" width="170" height="78" rx="12" fill="#0b1426" stroke="#1d3a5c"/>
+  <text x="424" y="688" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1">TRAINING SEEDS</text>
+  <text x="424" y="720" class="mono" font-size="22" font-weight="800" fill="#38bdf8">5 / algo</text>
+  <rect x="592" y="660" width="170" height="78" rx="12" fill="#0b1426" stroke="#1d3a5c"/>
+  <text x="608" y="688" class="mono" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1">TESTS PASSING</text>
+  <text x="608" y="720" class="mono" font-size="22" font-weight="800" fill="#00ff9d">18</text>
+  <line x1="40" y1="774" x2="760" y2="774" stroke="#15304f"/>
+  <text x="60" y="820" class="mono" font-size="13.5" font-weight="700"><tspan fill="#64748b">ML:</tspan><tspan fill="#00ff9d"> SKLEARN · PYTORCH</tspan></text>
+  <text x="330" y="820" class="mono" font-size="13.5" font-weight="700"><tspan fill="#64748b">RL:</tspan><tspan fill="#00f3ff"> GYMNASIUM</tspan></text>
+  <text x="530" y="820" class="mono" font-size="13.5" font-weight="700"><tspan fill="#64748b">SERVE:</tspan><tspan fill="#f1f5f9"> FLASK · VERCEL</tspan></text>
+</svg>
