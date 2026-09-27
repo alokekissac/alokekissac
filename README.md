@@ -132,7 +132,7 @@
   <tr>
     <td align="center" width="50%" valign="top">
       <a href="https://rl-traffic-signal-control.vercel.app/#simulator">
-        <img src="https://raw.githubusercontent.com/alokekissac/RL-Traffic-Signal-Control/main/docs/screenshots/simulator.jpg" width="100%" alt="3D RL traffic simulator" />
+        <img src="https://raw.githubusercontent.com/alokekissac/alokekissac.github.io/main/public/projects/rl-traffic-city3.jpg" width="100%" alt="3D RL traffic simulator: city intersection at night" />
       </a>
       <br/><br/>
       <b>🚦 RL Traffic Signal Control</b><br/>
@@ -162,7 +162,7 @@
   <tr>
     <td align="center" width="50%" valign="top">
       <a href="https://github.com/alokekissac/AI-Tour-Planner">
-        <img src="https://raw.githubusercontent.com/alokekissac/AI-Tour-Planner/main/docs/screenshots/admin-packages.jpg" width="100%" alt="AI Tour Planner admin dashboard" />
+        <img src="https://raw.githubusercontent.com/alokekissac/AI-Tour-Planner/main/docs/screenshots/home.jpg" width="100%" alt="AI Tour Planner home page" />
       </a>
       <br/><br/>
       <b>🗺️ AI Tour Planner</b><br/>
@@ -176,7 +176,7 @@
     </td>
     <td align="center" width="50%" valign="top">
       <a href="https://github.com/alokekissac/Smart-Travelogue">
-        <img src="https://raw.githubusercontent.com/alokekissac/Smart-Travelogue/main/docs/screenshots/adminviewtravaloges.jpg" width="100%" alt="Smart Travelogue admin" />
+        <img src="https://raw.githubusercontent.com/alokekissac/Smart-Travelogue/main/docs/screenshots/home.jpg" width="100%" alt="Smart Travelogue home page" />
       </a>
       <br/><br/>
       <b>✈️ Smart Travelogue</b><br/>
