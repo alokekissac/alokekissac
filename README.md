@@ -141,7 +141,7 @@
       <a href="https://github.com/alokekissac/RL-Traffic-Signal-Control"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
     </td>
     <td align="center" width="50%" valign="top">
-      <a href="https://github.com/alokekissac/Covigo">
+      <a href="https://covigo.vercel.app/">
         <img src="./assets/covigo-card.svg" width="100%" alt="Covigo coverage navigator" />
       </a>
       <br/><br/>
@@ -150,6 +150,8 @@
       <br/><br/>
       <code>JavaScript</code> • <code>Leaflet</code> • <code>Overpass API</code> • <code>Gemini</code> • <code>PWA</code>
       <br/><br/>
+      <a href="https://covigo.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live%20App-00ff9d?style=flat-square&logo=vercel&logoColor=black" /></a>
+      &nbsp;
       <a href="https://github.com/alokekissac/Covigo"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
     </td>
   </tr>
