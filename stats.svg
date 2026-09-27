@@ -35,7 +35,7 @@
   <circle cx="640" cy="150" r="96" fill="none" stroke="#1e3a5f" stroke-width="2" stroke-dasharray="3 9" class="spin"/>
   <circle cx="640" cy="150" r="82" fill="none" stroke="#0f1b30" stroke-width="14"/>
   <circle cx="640" cy="150" r="82" fill="none" stroke="url(#neon)" stroke-width="14" stroke-linecap="round" stroke-dasharray="515" class="ring" transform="rotate(-90 640 150)" filter="url(#glow2)"/>
-  <text x="640" y="162" class="sans" font-size="48" font-weight="800" fill="#f8fafc" text-anchor="middle">5</text>
+  <text x="640" y="162" class="sans" font-size="48" font-weight="800" fill="#f8fafc" text-anchor="middle">6</text>
   <text x="640" y="188" class="mono" font-size="10" font-weight="800" fill="#00ff9d" text-anchor="middle" letter-spacing="1">PROJECTS SHIPPED</text>
 
   <text x="60" y="330" class="mono" font-size="13" font-weight="700" fill="#94a3b8" letter-spacing="1">LANDFILL FORECAST · R² (LINEAR REGRESSION)</text>

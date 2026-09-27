@@ -112,6 +112,20 @@
     </td>
   </tr>
   <tr>
+    <td align="center" colspan="2" valign="top">
+      <a href="https://github.com/alokekissac/Advanced-RAG-System">
+        <img src="https://raw.githubusercontent.com/alokekissac/Advanced-RAG-System/main/docs/screenshots/answer.jpg" width="100%" alt="Advanced RAG System: cited answers and evidence panel" />
+      </a>
+      <br/><br/>
+      <b>🔎 Advanced RAG System</b><br/>
+      <sub>Trustworthy Q&amp;A over private documents. It combines hybrid retrieval (BM25 + embeddings, RRF + MMR) with cited answers, citation verification, abstention and prompt-injection guardrails, plus an evaluation harness. <b>95.7% answer accuracy</b> and <b>100% correct abstentions</b> on the held-out test split. Runs with a Gemini LLM or fully offline.</sub>
+      <br/><br/>
+      <code>Python</code> • <code>FastAPI</code> • <code>RAG</code> • <code>Embeddings</code> • <code>Vector search</code> • <code>Gemini</code> • <code>pytest</code>
+      <br/><br/>
+      <a href="https://github.com/alokekissac/Advanced-RAG-System"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="50%" valign="top">
       <a href="https://rl-traffic-signal-control.vercel.app/#simulator">
         <img src="https://raw.githubusercontent.com/alokekissac/RL-Traffic-Signal-Control/main/docs/screenshots/simulator.jpg" width="100%" alt="3D RL traffic simulator" />
