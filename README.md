@@ -122,6 +122,8 @@
       <br/><br/>
       <code>Python</code> • <code>FastAPI</code> • <code>RAG</code> • <code>Embeddings</code> • <code>Vector search</code> • <code>Gemini</code> • <code>pytest</code>
       <br/><br/>
+      <a href="https://advanced-rag-system-steel.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live%20Demo-00ff9d?style=flat-square&logo=vercel&logoColor=black" /></a>
+      &nbsp;
       <a href="https://github.com/alokekissac/Advanced-RAG-System"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
     </td>
   </tr>
@@ -178,6 +180,8 @@
       <br/><br/>
       <code>Flask</code> • <code>MySQL</code> • <code>REST API</code> • <code>Android (Java)</code> • <code>Bootstrap</code>
       <br/><br/>
+      <a href="https://smart-travelogue.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live%20Demo-00ff9d?style=flat-square&logo=vercel&logoColor=black" /></a>
+      &nbsp;
       <a href="https://github.com/alokekissac/Smart-Travelogue"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
     </td>
   </tr>
