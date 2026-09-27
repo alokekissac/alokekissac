@@ -106,6 +106,8 @@
       <br/><br/>
       <code>Python</code> • <code>scikit-learn</code> • <code>XGBoost</code> • <code>PyTorch</code> • <code>pandas</code> • <code>Flask</code> • <code>Chart.js</code>
       <br/><br/>
+      <a href="https://ai-landfill-waste-forecasting.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live%20Demo-00ff9d?style=flat-square&logo=vercel&logoColor=black" /></a>
+      &nbsp;
       <a href="https://github.com/alokekissac/AI-Landfill-Waste-Forecasting"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
       &nbsp;
       <a href="https://github.com/alokekissac/AI-Landfill-Waste-Forecasting/blob/main/docs/MSc_Report_Landfill_Waste_Forecasting.pdf"><img src="https://img.shields.io/badge/Report-PDF-00ff9d?style=flat-square&logo=readthedocs&logoColor=black" /></a>
@@ -168,6 +170,8 @@
       <br/><br/>
       <code>Flask</code> • <code>MySQL</code> • <code>OpenAI</code> • <code>OpenCV</code> • <code>Android (Java)</code>
       <br/><br/>
+      <a href="https://ai-tour-planner-ucc3.vercel.app/"><img src="https://img.shields.io/badge/Demo-Live%20Demo-00ff9d?style=flat-square&logo=vercel&logoColor=black" /></a>
+      &nbsp;
       <a href="https://github.com/alokekissac/AI-Tour-Planner"><img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" /></a>
     </td>
     <td align="center" width="50%" valign="top">
