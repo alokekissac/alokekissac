@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile images
 
 on:
   schedule:
@@ -21,6 +21,16 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#0284c7
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00f3ff&color_dots=#0b1426,#062b47,#0284c7,#38bdf8,#00ff9d
+
+      - uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Build top-languages card
+        run: python src/scripts/top_langs.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
