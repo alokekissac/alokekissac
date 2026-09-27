@@ -14,6 +14,8 @@
   <img src="https://img.shields.io/badge/BASE-DUBLIN%2C%20IRELAND-00f3ff?style=for-the-badge&labelColor=020617" alt="Dublin, Ireland" />
   &nbsp;
   <img src="https://img.shields.io/badge/MSc-ARTIFICIAL%20INTELLIGENCE-38bdf8?style=for-the-badge&labelColor=020617" alt="MSc Artificial Intelligence" />
+  &nbsp;
+  <a href="https://alokekissac-github-io.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE%20SITE-00ff9d?style=for-the-badge&logo=vercel&logoColor=black&labelColor=020617" alt="Portfolio" /></a>
 </p>
 
 <!-- ================= TYPEWRITER ================= -->
@@ -235,6 +237,10 @@
 <br/>
 
 <p align="center">
+  <a href="https://alokekissac-github-io.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Site-00ff9d?style=for-the-badge&logo=vercel&logoColor=black&labelColor=020617" />
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/alokekisssac/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-00f3ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=020617" />
   </a>
@@ -257,8 +263,8 @@
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td align="center" valign="middle" width="180">
-      <b>Scan to connect</b><br/><br/>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://www.linkedin.com/in/alokekisssac/&color=00ff9d&bgcolor=020617&margin=8" alt="QR code to LinkedIn" width="140" />
+      <b>Scan for my portfolio</b><br/><br/>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://alokekissac-github-io.vercel.app/&color=00ff9d&bgcolor=020617&margin=8" alt="QR code to portfolio" width="140" />
     </td>
     <td align="center" valign="middle">
       <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3500&pause=1200&color=00F3FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=520&height=50&lines=Thanks+for+stopping+by.;Open+to+AI+%2F+ML+engineering+roles+in+Ireland.;Let%27s+build+something+useful." alt="Footer typing" />
